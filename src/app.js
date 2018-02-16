@@ -14,7 +14,7 @@ export class ArtButton0 extends React.Component {
   render() {
     const artConst = this.props.artElement[0];
     return (
-        <button>{artConst.name} </button>
+        <button className = "but0">{artConst.name} </button>
     );
   }
 }
